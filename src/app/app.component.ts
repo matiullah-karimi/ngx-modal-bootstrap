@@ -1,5 +1,4 @@
-import { BsModalRef } from './../modal/bs-modal-ref.service';
-import { BsModalService } from './../modal/bs-modal.service';
+import { BsModalRef, BsModalService } from '@matiullah.karimi/ngx-bootstrap-modal';
 import { Component } from '@angular/core';
 
 @Component({
@@ -16,6 +15,5 @@ export class AppComponent {
 
   showModal(template) {
     this.bsModalRef = this.modalService.show(template, {backdrop: true});
-    console.log('here')
   }
 }

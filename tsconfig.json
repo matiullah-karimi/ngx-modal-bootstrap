@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-modal-bootstrap": [
+        "dist/ngx-modal-bootstrap/ngx-modal-bootstrap",
+        "dist/ngx-modal-bootstrap"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
